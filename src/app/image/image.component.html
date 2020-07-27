@@ -1,0 +1,19 @@
+<div class="card my-5">
+  <div class="card-body">
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">fileId</th>
+        <th scope="col">fileDescription</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let image of images">
+        <td>{{ image.fileId }}</td>
+        <td>{{ image.fileDescription }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
