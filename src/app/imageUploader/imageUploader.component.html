@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card bg-dark my-5">
+        <div class="card-body">
+          <h2 class="card-title text-center text-white py-3">Upload your image!</h2>
+          <ul class="text-center list-inline py-3">
+            <span class="card-title text-center text-white py-3">Add image description: </span>
+            <input type="text" class="btn btn-info"><br><br>
+            <span class="card-title text-center text-white py-3">Select Image to upload: </span>
+            <input #imageInput
+                   type="file"
+                   accept="image/*" class="btn btn-info">
+          </ul>
+        </div>
+      </div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
